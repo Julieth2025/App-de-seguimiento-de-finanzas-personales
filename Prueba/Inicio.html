@@ -71,6 +71,21 @@
                 </div>
             </form>
         </div>
+<!-- Controles de filtro -->
+        <div class="mb-4 p-10 flex justify-center space-x-4">
+            <select id="filtroCategoria" class="px-3 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-indigo-400">
+                <option value="">Todas las categorías</option>
+                <option value="Alimentación">Alimentación</option>
+                <option value="Gastos Hogar">Gastos Hogar</option>
+                <option value="Tecnologia y Electrodomesticos">Tecnologia y Electrodomesticos</option>
+                <option value="Otros">Otros</option>
+            </select>
+            <select id="filtroTipo" class="px-3 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-indigo-400">
+                <option value="">Todos los tipos</option>
+                <option value="Ingreso">Ingreso</option>
+                <option value="Gasto">Gasto</option>
+            </select>
+        </div>
 <!--Tabla de registro de la o las transacciones-->
         <div class="mt-10 m-auto">
             <h2 class="mb-4 flex justify-center">Lista de Transacciones</h2>
